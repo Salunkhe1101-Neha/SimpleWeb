@@ -1,0 +1,52 @@
+$buttonBg:blue;
+$nav1Bg:rgb(145,118,232);
+$color:black;
+$navBg:rgb(247,248,252);
+
+.nav1
+{
+    height: 50px;
+    width: 100%;
+    background-color:$nav1Bg;
+    text-align: center;
+    color:$navBg;
+    padding: 11px;
+    font-size: large;
+   
+}
+.navbar
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:$navBg ;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top:0;
+    // width: 100%;
+
+    .navdiv
+    {
+        margin-left: 30px;
+        display: flex;
+        gap:25px;
+        margin-right: 30px;
+    }
+
+    a{
+        color: $color;
+    }
+
+    button{
+          border: 1px solid rgb(221, 18, 18);
+          :hover
+    {
+        background-color: $buttonBg;
+    }
+    }
+
+    
+}
+
